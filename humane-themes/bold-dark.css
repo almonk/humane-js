@@ -24,7 +24,7 @@ div.humane.humane-show:hover { opacity: 0.2; }
 
 /* custom settings */
 .humane {
-  font-family           : Verdana, sans-serif;
+  font-family           : sans-serif;
   font-size             : 25px;
   letter-spacing        : -1px;
   top                   : 25%;
@@ -36,20 +36,10 @@ div.humane.humane-show:hover { opacity: 0.2; }
   text-align            : center;
   background-color      : #000;
   background-color      : rgba(0,0,0,0.8);
-  background-image      : -moz-linear-gradient(top, rgba(0,0,0,.8), rgba(50,50,50,.8));
-  background-image      : -ms-linear-gradient(top, rgba(0,0,0,.8), rgba(50,50,50,.8));
-  background-image      : -o-linear-gradient(top, rgba(0,0,0,.8), rgba(50,50,50,.8));
-  background-image      : -webkit-gradient(linear, left top, left bottom, from(rgba(0,0,0,.8)), to(rgba(50,50,50,.8)));
-  background-image      : -webkit-linear-gradient(top, rgba(0,0,0,.8), rgba(50,50,50,.8));
-  background-image      : linear-gradient(top, rgba(0,0,0,.8), rgba(50,50,50,.8));;
-  -moz-border-radius    : 15px;
-  -webkit-border-radius : 15px;
-  -o-border-radius      : 15px;
-  border-radius         : 15px;
-  text-shadow           : 0 -1px 1px #ddd;
-  -moz-box-shadow       : 0 4px 4px -4px #000;
-  -webkit-box-shadow    : 0 4px 4px -4px #000;
-  box-shadow            : 0 4px 4px -4px #000;
+  -moz-border-radius    : 6px;
+  -webkit-border-radius : 6px;
+  -o-border-radius      : 6px;
+  border-radius         : 6px;
 }
 
 /* custom animation for css transition supported browsers */
